@@ -42,8 +42,8 @@ client.on('message', message => {//Toxic Codes
   client.user.setUsername(argresult).then
       message.channel.send(`Changing The Name To ..**${argresult}** `)
 } else
-  if (message.content.startsWith(adminprefix + 'setprefix')) {//Toxic Codes
-  client.user.setPrefix(argresult).then
+  if (message.content.startsWith(adminprefix + 'setadminprefix')) {//Toxic Codes
+  client.user.setadminprefix(argresult).then
       message.channel.send(`Changing Prefix ..**${argresult}** `)//Toxic Codes
 } else
 if (message.content.startsWith(adminprefix + 'setavatar')) {//Toxic Codes
