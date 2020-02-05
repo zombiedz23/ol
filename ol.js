@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var adminprefix = "!"
-const developers = ["537675177677291530"]//Toxic Codes
+var adminprefix = "Z"
+const developers = ["488379828240646155"]//Toxic Codes
 
 client.on('ready', () => {
    console.log(`----------------`);
